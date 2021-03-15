@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin: 0 auto;
+}
+nav {
+    padding: 5px;
+    background-image: linear-gradient(to bottom left, black, rgba(0, 0, 0, 0.9));
+    box-shadow: 0px 0px 5px black;
+    position: sticky;
+    top: 0px;
+}
+nav:hover{
+    color: rgb(103, 120, 168);
+}
+nav .container {
+    display: flex;
+    align-items: center;
+}
+.logo-name {
+    color: rgb(240, 242, 252);
+    padding: 0px 20px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.nav-links {
+    margin-left: auto;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    padding: 0px 20px;
+}
+.nav-link {
+    color: rgb(240, 242, 252);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: rgb(103, 120, 168);
+}
+.content {
+    max-width: 66%;
+}
+.content1 {
+    margin:-20px 0px 5px 10px;
+    padding: 0px 25px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content1 h1 {
+    padding-top: 20px;
+    display: flex;
+    color: rgb(240, 242, 252);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.content1 p{
+    color: rgb(240, 242, 252);
+}
+.content2 {
+    margin:-20px 0px 5px 10px;
+    padding: 0px 25px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content2 h1{
+    padding-top: 20px;
+    display: flex;
+    color: rgb(240, 242, 252);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.content2 p{
+    color: rgb(240, 242, 252);
+}
+.content3 {
+    margin:-20px 0px 5px 10px;
+    padding: 0px 25px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content3 h1 {
+    padding-top: 20px;
+    display: flex;
+    color: rgb(240, 242, 252);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.content3 p{
+    color: rgb(240, 242, 252);
+}
+.content4 {
+    margin:-20px 0px 5px 10px;
+    padding: 0px 25px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content4 h1 {
+    padding-top: 20px;
+    display: flex;
+    color: rgb(240, 242, 252);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.content4 p{
+    color: rgb(240, 242, 252);
+    padding-bottom: 20px;
+}
+.content5 {
+    margin:-20px 0px 5px 10px;
+    padding: 0px 25px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content5 h1 {
+    padding-top: 20px;
+    display: flex;
+    color: rgb(240, 242, 252);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.content5 p{
+    color: rgb(240, 242, 252);
+}
+.btn {
+    color: rgb(240, 242, 252);
+    padding: 20px;
+    font-size: small;
+    text-decoration: none;
+    border-style: inset;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
